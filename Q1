@@ -1,0 +1,504 @@
+
+3 - Mark
+Q1.	Given: public class MyLoop { public static void main(String[] args) { String[] sa = {"tom ", "jerry "}; for (int x = 0; x < 3; x++) { for (String s : sa) { System.out.print(x + " " + s); if (x == 1) { break; } } } } } (you can copy and paste the code in an editor to beautify it)
+A. 	
+	0 tom 0 jerry 1 tom 1 jerry
+	B. 	
+	0 tom 0 jerry 2 tom 2 jerry
+	
+C. 	
+	0 tom 0 jerry 1 tom 2 tom 2 jerry
+	D. 	
+	0 tom 0 jerry 1 tom 1 jerry 2 tom 2 jerry
+
+2 - Mark
+Q2.	Steve is a Database Developer at Finlogic Technologies Pvt. Ltd. He has been asked to create a report that displays the name of all the Partners enrolled in the organization in an alphabetical order. Which of the following clauses should Steve use to create the appropriate report?
+A. 	
+	DISTINCT
+	B. 	
+	ORDER BY
+	
+C. 	
+	LIMIT
+	D. 	
+	WHERE
+
+
+3 - Mark
+Q3.	Consider the following scenario: Mrs. and Mr. Franklin traveled in a train in Georgia for the first time. They were very impressed with the automatic door system of the train. <br/> They also appreciated the sound system, which tells the passenger about the station arrived. However, Mrs. and Mr. Franklin are not aware about the complex processes required to build such technology. <br/> Identify the feature of object-oriented programming implemented in the preceding program.
+A. 	
+	Abstraction
+	B. 	
+	Polymorphism
+	
+C. 	
+	Inheritance
+	D. 	
+	Encapsulation
+
+1 - Mark
+Q4.	Which of the following expressions evaluates to true?
+A. 	
+	(false)
+	B. 	
+	(null != null)
+	
+C. 	
+	(4 <= 4)
+	D. 	
+	(!true)
+
+
+1 - Mark
+Q5.	Printer Spooling is an application of which of the following data structures?
+A. 	
+	Stacks
+	B. 	
+	Queues
+	
+C. 	
+	Trees
+	D. 	
+	Graphs
+
+1 - Mark
+Q6.	Which one of the following is a code tuning techniques?
+A. 	
+	Use of correct datatype
+	B. 	
+	Order statements by frequency in switch statements
+	
+C. 	
+	minimize computation
+	D. 	
+	ALL OF THE ABOVE
+
+
+
+2 - Mark
+Q7.	There is a StudentProject table, which contains StudentID, ProjectID, Name, CourseID, and Hours as attributes. The primary key in this table is composite (StudentID+ProjectID). The table is in 1NF. The CourseID attribute is functionally dependent on the StudentID attribute that is on the part of the key. Hours is functionally dependent on the whole key (StudentID+ProjectID). What will you do to have the table in 2NF?
+A. 	
+	Divide the StudentProject table into following two tables: Student: StudentID, Name, CourseID Project: StudentID, ProjectID, Hours
+	B. 	
+	Divide the StudentProject table into following two tables: Student: StudentID, Name, CourseID Project: ProjectID, Hours
+	
+C. 	
+	Divide the StudentProject table into following two tables: Student: StudentID, Name, Hours Project: StudentID, ProjectID, CourseID
+	D. 	
+	Divide the StudentProject table into following two tables: Student: StudentID, Name, CourseID, Hours Project: StudentID, ProjectID
+
+
+
+2 - Mark
+Q8.	Which one of the following is an advantage of Test Automation?
+A. 	
+	Reusability
+	B. 	
+	Better Coverage
+	
+C. 	
+	Development is faster
+	D. 	
+	Both A and B
+
+2 - Mark
+Q9.	If we have Modules x, y, z. 'x' module is ready and need to test it. But it calls functions from y and z (which are not ready). To test a particular module we write dummy piece of code which simulates y and z which will return values for x. Dummy code we have written for y and z is called as?
+A. 	
+	Stubs
+	B. 	
+	Drivers
+	
+C. 	
+	SOLID
+	D. 	
+	None of the Above
+
+2 - Mark
+Q10.	Consider the following statements,<br/> Statement A : In Method Overloading, name must be same and only number of parameter should change<br/> Statement B : In Method Overriding, name must be same and there should be inheritance relationship between classes
+A. 	
+	Both statements are true
+	B. 	
+	Both statements are false
+	
+C. 	
+	Statement A is true and Statement B is false
+	D. 	
+	Statement B is true and Statement A is false
+
+
+
+3 - Mark
+Q11.	Consider the following statements, Statement A : final keyword is used with variables, so that we can access variables without creating an object<br/> Statement B : final keyword is used with methods, to prevent overriding of that particular method<br/> Statement C : there is no way in java, to prevent inheritance of classes
+A. 	
+	All statements are true
+	B. 	
+	A is true, B and C are false
+	
+C. 	
+	A and B are true, C is false
+	D. 	
+	B is true, A and C are false
+
+
+3 - Mark
+Q12.	classÃ?Â SimpleExample {Ã?Â Ã?Â <br/> Ã?Â Ã?Â publicÃ?Â staticÃ?Â voidÃ?Â main(StringÃ?Â args[]){ <br/>Ã?Â Ã?Â Ã?Â Ã?Â Ã?Â intÃ?Â arr[]={10,20,30,40,50};Ã?Â Ã?Â <br/> int sum = 0;<br/>Ã?Â Ã?Â for(intÃ?Â i:arr){Ã?Â Ã?Â Ã?Â sum = sum + i; Ã?Â }Ã?Â Ã?Â System.out.println(Ã¢Â?Â?The sum is Ã¢Â?Â?+sum); Ã?Â }Ã?Â Ã?Â Ã?Â }Ã?Â Ã?Â Predict the output of the above code
+A. 	
+	The sum is 150
+	B. 	
+	Compile time Error as we can't use : in for
+	
+C. 	
+	runtime error as we can't use : in for
+	D. 	
+	It will not display any output
+
+
+
+
+1 - Mark
+
+
+Q13.	What is the use of TRUNCATE statement
+A. 	
+	to delete the data of the table permanently
+	B. 	
+	to delete the structure of the table permanently
+	
+C. 	
+	Both A and B
+	D. 	
+	None of the Above
+
+
+
+1 - Mark
+
+
+Q14.	Which of the following is not true about a FOREIGN KEY constraint?
+A. 	
+	It is a referential integrity constraint.
+	B. 	
+	It establishes a relationship between a primary key or a unique key in the same table or a different table.
+	
+C. 	
+	A foreign key value cannot be null.
+	D. 	
+	A foreign key value must match an existing value in the parent table.
+
+
+
+1 - Mark
+
+
+Q15.	Which statement is true about accessibility of members?
+A. 	
+	Private members are always accessible from within the same package
+	B. 	
+	Private members can only be accessed by code from within the class of the member
+	
+C. 	
+	A member with default accessibility can be accessed by any subclass of the class in which it is defined
+	D. 	
+	Private members cannot be accessed at all
+
+
+
+1 - Mark
+
+
+Q16.	If one intends to work with ResultSet, which of these PreparedStatement methods will work?
+A. 	
+	execute()
+	B. 	
+	executeQuery()
+	
+C. 	
+	Both A and B
+	D. 	
+	None of the Above
+
+
+
+
+1 - Mark
+
+
+Q17.	What is the base class of Exception and Error
+A. 	
+	BaseException
+	B. 	
+	Throwable
+	
+C. 	
+	SystemException
+	D. 	
+	ApplicationException
+
+
+
+
+2 - Mark
+
+
+Q18.	Which of the following statement is not correct about HTTP method ?
+A. 	
+	A POST request append data to the end of the URL
+	B. 	
+	A GET request append data to the end of the URL.
+	
+C. 	
+	Data is appended to the URL both in GET and POST
+	D. 	
+	Both A and C
+
+
+
+
+1 - Mark
+
+
+Q19.	Which method defined in the HttpServletRequest returns the object of RequestDispatcher ?
+A. 	
+	getRequestDispatcher()
+	B. 	
+	getDispatcher()
+	
+C. 	
+	getRequest()
+	D. 	
+	requestDispatcher()
+
+
+
+
+1 - Mark
+
+
+Q20.	Which is an example of the syntax used to import a class to JSP ?
+A. 	
+	<% page import='java.util.List' %>
+	B. 	
+	<%@ page import='java.util.List' @%>
+	
+C. 	
+	<% import='java.util.List' %>
+	D. 	
+	<%@ page import='java.util.List' %>
+
+
+
+1 - Mark
+
+
+Q21.	Which Standard tag is used to store data in the JavaBeans instance?
+A. 	
+	<jsp:useBean>
+	B. 	
+	<jsp:set>
+	
+C. 	
+	<jsp:setBean>
+	D. 	
+	<jsp:setProperty>
+
+
+
+
+2 - Mark
+
+
+Q22.	What is wrong in the following code?<br/> DECLARE<br/> c_id := 1;<br/> c_name customers.name%type;<br/> c_addr customers.address%type;<br/> BEGIN<br/> SELECT name, address INTO c_name, c_addr<br/> FROM customers<br/> WHERE id = c_id;<br/> END;
+A. 	
+	WHERE clause is wrong, it should be WHERE id := c_id;
+	B. 	
+	We can't use SELECT INTO statement in PL/SQL block
+	
+C. 	
+	The variable c_id is not declared properly
+	D. 	
+	There is nothing wrong in the code
+
+
+
+
+1 - Mark
+
+
+Q23.	Which of the following is a way of passing parameters to PL/SQL subprograms?
+A. 	
+	Positional notation
+	B. 	
+	Named Notation
+	
+C. 	
+	Mixed Notation
+	D. 	
+	ALL OF THE ABOVE
+
+
+
+
+1 - Mark
+
+
+Q24.	Is it necessary that each try block must be followed by a catch block in Java?
+A. 	
+	TRUE
+	B. 	
+	FALSE
+	
+C. 	
+	Can't say
+
+
+
+
+1 - Mark
+
+
+Q25.	What of the following is the default value of an instance variable?
+A. 	
+	null
+	B. 	
+	0
+	
+C. 	
+	depends upon the type of variable
+	D. 	
+	Not assigned
+
+
+
+2 - Mark
+
+
+Q26.	Which method/s given below are called by Web Container when executing Servlets: 1) init 2) execute 3) destroy
+A. 	
+	Only 1
+	B. 	
+	Both 1 and 2
+	
+C. 	
+	All of them get called
+	D. 	
+	Both 1 and 3
+
+
+
+1 - Mark
+
+
+Q27.	_____________ is a level of software testing where individual components of a software are tested.
+A. 	
+	Test Automation
+	B. 	
+	Unit Testing
+	
+C. 	
+	Regression Testing
+	D. 	
+	System Testing
+
+
+
+
+2 - Mark
+
+
+Q28.	Consider two tables named Orders and Shipments. You need to create a query that will display all the rows from the Shipments table and the matching rows from the Orders table. Which of the following types of joins will you use to create an appropriate query?
+A. 	
+	Inner Join
+	B. 	
+	Self Join
+	
+C. 	
+	Left Join
+	D. 	
+	Right Join
+
+
+
+
+2 - Mark
+
+
+Q29.	Consider the following statements, Statement A : A PL/SQL Cursor is a view on a Table. <br/> Statement B: A Cursor holds the rows returned by a SQL Statement
+A. 	
+	Both statements are true
+	B. 	
+	Both statements are false
+	
+C. 	
+	Statement A is true and Statement B is false
+	D. 	
+	Statement B is true and Statement A is false
+
+
+
+
+3 - Mark
+
+
+Q30.	Given: public class Calculator { int num = 100; public void calc(int num) { this.num = num * 10; } public void printNum(){ System.out.println(num); } public static void main(String[] args) { Calculator obj = new Calculator (); obj.calc(2); obj.printNum(); } } (you can copy and paste the code in an editor to beautify it)
+A. 	
+	20
+	B. 	
+	100
+	
+C. 	
+	1000
+	D. 	
+	2
+
+
+
+3 - Mark
+
+
+Q31.	Given: class Alpha { String getType() { return "alpha"; } } class Beta extends Alpha { String getType() { return "beta"; } } public class Gamma extends Beta { String getType() { return "gamma"; } public static void main(String[] args) { Gamma g1 = new Alpha(); Gamma g2 = new Beta(); System.out.println(g1.getType() + " " + g2.getType()); } } (you can copy and paste the code in an editor to beautify it)
+A. 	
+	alpha beta
+	B. 	
+	beta beta
+	
+C. 	
+	gamma gamma
+	D. 	
+	compilation fails
+
+
+
+
+2 - Mark
+
+
+Q32.	What will be output of the following line of code, assume it is written in main() method directly.System.out.println('I like Java'.length());
+A. 	
+	11
+	B. 	
+	Compile time error
+	
+C. 	
+	Runtime Error
+	D. 	
+	None of the Above
+
+
+
+
+
+3 - Mark
+
+
+Q33.	Look at the following code and choose the right option for the word AM://Shape.javapublic class Shape {protected void display() {System.out.println('in base');}}//Circle.javapublic class Circle extends Shape {AM void display() {System.out.println('in derived');}}
+A. 	
+	only protected can be used
+	B. 	
+	public and protected both can be used
+	
+C. 	
+	public, protected and private can be used
+	D. 	
+	only public can be used
+
+
